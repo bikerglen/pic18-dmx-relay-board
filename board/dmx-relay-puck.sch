@@ -8574,6 +8574,17 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="270.764" y="107.188" size="1.778" layer="91">500mA</text>
 <text x="271.526" y="122.682" size="1.27" layer="91">MBR0580S1-7</text>
 <text x="368.3" y="227.838" size="1.778" layer="91">mates with 1803617</text>
+<text x="68.58" y="43.18" size="1.778" layer="97">Notes:
+•replace R3 with 0Ω jumper
+•0Ω Bourns #CR1206-J/-000ELF
+•do not stuff C9</text>
+<text x="134.62" y="15.24" size="1.778" layer="97">Lower cost and more readily available
+substitute for 0.1µF 50V caps is
+Kemet #C1206C104K5RAC7867</text>
+<text x="198.12" y="193.04" size="1.778" layer="97">FMMT619TA substitute:
+Fairchild/ON Semi #FSB619</text>
+<text x="198.12" y="185.42" size="1.778" layer="97">MBR0580S1-7 substitute:
+Micro Commercial #MBR0580-TP</text>
 </plain>
 <instances>
 <instance part="V2" gate="GND" x="71.12" y="142.24"/>
@@ -9514,4 +9525,10 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
